@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
@@ -34,6 +35,8 @@ function App() {
       <span className='text-3xl font-bold underline'>Hello world!</span>
       <span className='text-2xl font-bold underline'>Hello world!</span>
       <span className='text-xl font-bold underline'>Hello world!</span>
+
+      <Link to='/modules1'>Go to Module1</Link>
     </>
   );
 }
